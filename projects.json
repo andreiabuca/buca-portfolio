@@ -1,0 +1,140 @@
+[
+    {
+        "title": "Booki",
+        "description": "En tant que développeuse web en alternance chez la start-up Booki, j'ai créé la page d'accueil d'une agence de voyage en utilisant HTML et CSS. Ma mission principale était d'intégrer l'interface responsive du site en respectant les maquettes Figma fournies pour mobile, tablette et desktop et de concevoir des composants d'interface personnalisés.",
+        "image":"https://github.com/andreiabuca/OC-Booki/blob/main/images/hebergements/annie-spratt.jpg?raw=true",
+        "link":"https://andreiabuca.github.io/OC-Booki/",
+        "github":"https://github.com/andreiabuca/OC-Booki",
+        "technologies": [
+            {
+             "name": "HTML",
+             "icon": "https://img.icons8.com/?size=100&id=1043&format=png&color=000000"   
+            },
+            {
+                "name": "CSS",
+                "icon": "https://img.icons8.com/?size=100&id=1045&format=png&color=000000"
+            },
+            {
+                "name":"Figma",
+                "icon": "https://img.icons8.com/?size=100&id=GflC6KLkdd0Y&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "title":"OhMyFood",
+        "description":"Chez OhMyfood, une start-up innovante dans le secteur de la restauration, j’ai développé un site web 'mobile first' répertoriant les menus de restaurants gastronomiques. J’ai intégré les maquettes Figma, y compris des animations et des comportements spécifiques, pour permettre aux clients de composer leurs repas à l'avance. ",
+        "image":"https://github.com/andreiabuca/OC-Oh-My-Food/blob/main/assets/le-delice.jpg?raw=true",
+        "link":"https://andreiabuca.github.io/OC-Oh-My-Food/",
+        "github":"https://github.com/andreiabuca/OC-Oh-My-Food",
+        "technologies": [
+            {
+             "name": "HTML",
+             "icon": "https://img.icons8.com/?size=100&id=1043&format=png&color=000000"   
+            },
+            {
+                "name": "Sass",
+                "icon": "https://img.icons8.com/?size=100&id=H997wGMPVphe&format=png&color=000000"
+            },
+            {
+                "name":"Figma",
+                "icon": "https://img.icons8.com/?size=100&id=GflC6KLkdd0Y&format=png&color=000000"
+            }
+        ]
+    },
+
+    {
+        "title":"Sophie Bluel",
+        "description":"Pour l'agence ArchiWebos, j'ai conçu le site portfolio d'une architecte d'intérieur en créant une page web dynamique avec JavaScript et la communication API. J'étais responsable du développement du Front-End pour mettre en valeur le portfolio de l'architecte.",
+        "image":"https://github.com/andreiabuca/OC-Sophie-Bluel-JS/blob/master/FrontEnd/assets/images/structures-thermopolis.png?raw=true",
+        "github":"https://github.com/andreiabuca/OC-Sophie-Bluel-JS",
+        "technologies": [
+            {
+             "name": "HTML",
+             "icon": "https://img.icons8.com/?size=100&id=1043&format=png&color=000000"   
+            },
+            {
+                "name": "CSS",
+                "icon": "https://img.icons8.com/?size=100&id=1045&format=png&color=000000"
+            },
+            {
+                "name":"JavaScript",
+                "icon": "https://img.icons8.com/?size=100&id=39853&format=png&color=000000"
+            },
+            {
+                "name":"Swagger",
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Swagger-logo.png"
+            }
+        ]
+    },
+    {
+        "title":"Kasa",
+        "description":"En tant que développeuse front-end freelance, j'ai collaboré avec Kasa pour moderniser leur site web en utilisant React et React Router. J’ai suivi les maquettes responsives fournies sur Figma pour améliorer l’expérience utilisateur. ",
+        "image":"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-1.jpg",
+        "github":"https://github.com/andreiabuca/Kasa-react",
+        "technologies": [
+            {
+             "name": "React",
+             "icon": "https://img.icons8.com/?size=100&id=bzf0DqjXFHIW&format=png&color=000000"   
+            },
+            {
+                "name": "React Router",
+                "icon": "https://www.svgrepo.com/show/354262/react-router.svg"
+            },
+            {
+                "name":"Sass",
+                "icon": "https://img.icons8.com/?size=100&id=H997wGMPVphe&format=png&color=000000"
+            },
+            {
+                "name":"Figma",
+                "icon": "https://img.icons8.com/?size=100&id=GflC6KLkdd0Y&format=png&color=000000"
+            }
+        ]
+    },
+    {
+        "title":"Nina Carducci",
+        "description": "En tant que développeuse web freelance, j'ai optimisé le site de Nina Carducci, photographe, en améliorant les performances, le référencement et l’accessibilité. J'ai utilisé des outils comme Lighthouse et Wave pour effectuer l'audit et l'optimisation.",
+        "image":"https://raw.githubusercontent.com/andreiabuca/ninacarducci-seo/main/assets/images/camera.webp",
+        "link":"https://andreiabuca.github.io/ninacarducci-seo/",
+        "github":"https://github.com/andreiabuca/ninacarducci-seo",
+        "technologies": [
+            {
+             "name": "SEO",
+             "icon": "https://img.icons8.com/?size=100&id=udjU_YS4lMXL&format=png&color=000000"   
+            },
+            {
+                "name": "Lighthouse",
+                "icon": "https://seeklogo.com/images/G/google-lighthouse-logo-F4457EC878-seeklogo.com.png"
+            },
+            {
+                "name":"Wave",
+                "icon": "https://lh3.googleusercontent.com/h2ECY8Ob8qxF28QRCB_hinHECmj0dyJHw1aGAKz_rBiK2USeQUT8M5WvqBpFssAYZo9nClfmKz3sKpS4P0TBlzhBkw=s120"
+            }
+        ]
+    },
+    {
+        "title":"724events",
+        "description": "En tant que développeur front-end freelance, j'ai été contacté par l'agence événementielle 724events pour finaliser le développement de leur site vitrine one-page. Ma mission consiste à déboguer et compléter le site en utilisant divers outils, notamment Chrome DevTools et React Developer Tools, afin d'identifier et résoudre les problèmes existants. J'ai également rédigé le cahier de recette en y incluant tous les scénarios de test nécessaires, tels que les tests unitaires et fonctionnels, pour garantir le bon fonctionnement du site.",
+        "image":"https://raw.githubusercontent.com/andreiabuca/debuggez-react-js/main/public/images/hall-expo.png",
+        "link":"",
+        "github":"https://github.com/andreiabuca/debuggez-react-js",
+        "technologies": [
+            {
+             "name": "Chrome DevTools",
+             "icon": "https://pbs.twimg.com/profile_images/762579160099385344/w5MfsnMn_400x400.jpg"   
+            },
+            {
+                "name": "React Developer Tools",
+                "icon": "https://img.icons8.com/?size=100&id=122637&format=png&color=000000"
+            },
+            {
+                "name":"Yarn",
+                "icon": "https://seeklogo.com/images/Y/yarn-logo-F5E7A65FA2-seeklogo.com.png"
+            },
+            {
+                "name":"Node.js",
+                "icon": "https://img.icons8.com/?size=100&id=FQlr_bFSqEdG&format=png&color=000000"
+            }
+        ]
+    }
+
+]
