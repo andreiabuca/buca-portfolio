@@ -1,7 +1,7 @@
 :root {
     /* --primary-color: #9B59B6; */
     --primary-color: #b190eb;
-    --accent-color: #1ABC9C;
+    --accent-color: #9B59B6;
     --neutral-light: #ECF0F1;
     --neutral-dark: #2C3E50; 
     --background-color: #FFFFFF;
@@ -165,6 +165,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .div_about-me-text h1, p {
     text-align: justify;
+}
+
+.contact-link {
+    color: var(--accent-color);
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .div_projects-container {
