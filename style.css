@@ -39,6 +39,15 @@ h1, h2, h3, h4, h5, h6 {
     list-style: none;
 }
 
+.ul_nav-bar a {
+    text-decoration: none;
+    color: var(--neutral-dark);
+}
+
+.ul_nav-bar a:hover {
+    color: var(--primary-color);
+}
+
 .ul_nav-bar li {
     margin: 10px;
 }
