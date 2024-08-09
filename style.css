@@ -363,4 +363,8 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+
+    .div_about-me-text h1 {
+        text-align: unset;
+    }
 }
