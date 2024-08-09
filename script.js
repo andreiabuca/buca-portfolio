@@ -60,14 +60,12 @@ function displayProjects(projects) {
 //Function to open the modal 
 function openModal(project) {
     const modal = document.getElementById('projectModal')
-    const modalImg = document.getElementById('modalImg');
     const modalTitle = document.getElementById('modalTitle');
     const modalDescription = document.getElementById('modalDescription');
     const modalTechnologies = document.getElementById('modalTechnologies');
     
 
-    if (modal && modalImg && modalTitle && modalDescription && modalTechnologies) {
-        modalImg.src = project.image;
+    if (modal && modalTitle && modalDescription && modalTechnologies) {
         modalTitle.textContent = project.title;
         modalDescription.textContent = project.description;
 
