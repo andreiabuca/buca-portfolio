@@ -123,3 +123,28 @@ window.addEventListener('click', (event) => {
 
 // Fetch and display projects on page load
 window.onload = fetchProjects;
+
+//Animation for the header 
+document.addEventListener('DOMContentLoaded', function() {
+    const text = "Intégrateur web front-end";
+    let index = 0;
+    const speed = 100; 
+    const delay = 1000;
+    const typingElement = document.getElementById('typing');
+
+    function type() {
+        if (index < text.length) {
+            typingElement.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+        } else {
+            setTimeout(() => {
+                index = 0;
+                typingElement.textContent = "";
+                type();
+            }, delay);
+        }
+    }
+
+    type();
+});

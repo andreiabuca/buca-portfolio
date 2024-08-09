@@ -14,39 +14,54 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="script.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <nav class="nav-bar">
-            <img src="images/logo-portfolio.jpg" class="logo" alt="">
-            <ul class="ul_nav-bar">
-                <li>À PROPOS</a></li>
-                <li>PROJETS</a></li>
-                <li>CV</li>
-            </ul>
-        </nav>
+    <nav class="nav-bar">
+        <img src="images/logo-portfolio.jpg" class="logo" alt="">
+        <ul class="ul_nav-bar">
+            <li>À PROPOS</a></li>
+            <li>PROJETS</a></li>
+            <li>CV</li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="header_content">
+            <i class="fa-solid fa-computer-mouse i_icon"></i>
+            <p class="p_name">ANDREIA BUCA</p>
+            <p class="p_job-title"><span id="typing"></span></p>
+        </div>
     </header>
 
     <h2 id="#apropos" class="section-title">À PROPOS DE MOI</h2>
 
-    <section class="sec_about-me">
-        <div class="div_about-me-img">
-            <img src="images/andreiabuca-icon.png" alt="Cartoon picture of developper web Andreia Buca">
-        </div>
-        <div class="div_about-me-text">
-            <h1>Bonjour, je m'appelle Andreia Buca</h1>
-            <p class="experience">Je suis une développeuse web passionnée, spécialisée dans le front-end. J’ai acquis mes compétences à
-                travers ma formation d’intégrateur web (niveau BAC+2) chez OpenClassrooms et un cours intensif de 6
-                semaines chez Simplon, où j'ai obtenu une certification en création d’applications web avec WordPress.
-            </p>
-            <p>Je suis déterminée à continuer à améliorer mes compétences et à évoluer en tant que professionnelle.
-                Toujours ouverte à de nouvelles opportunités, je suis impatiente de contribuer à vos projets.</p>
-            <p class="contact">N'hésitez pas à me contacter par e-mail ou sur LinkedIn. Au plaisir de collaborer avec vous !</p>
-        </div>
-    </section>
+    <div>
+        <section class="sec_about-me">
+            <div class="div_about-me-img">
+                <img src="images/andreiabuca-icon.png" alt="Cartoon picture of developper web Andreia Buca">
+            </div>
+            <div class="div_about-me-text">
+                <h1>Bonjour, je m'appelle Andreia Buca</h1>
+                <p class="experience">Je suis une développeuse web passionnée, spécialisée dans le front-end. J’ai
+                    acquis
+                    mes compétences à
+                    travers ma formation d’intégrateur web (niveau BAC+2) chez OpenClassrooms et un cours intensif de 6
+                    semaines chez Simplon, où j'ai obtenu une certification en création d’applications web avec
+                    WordPress.
+                </p>
+                <p>Je suis déterminée à continuer à améliorer mes compétences et à évoluer en tant que professionnelle.
+                    Toujours ouverte à de nouvelles opportunités, je suis impatiente de contribuer à vos projets.</p>
+                <p class="contact">N'hésitez pas à me contacter par e-mail ou sur LinkedIn. Au plaisir de collaborer
+                    avec
+                    vous !</p>
+            </div>
+        </section>
+    </div>
 
     <section class="sec_projects">
         <h2 id="#projets" class="section-title">PROJETS</h2>
@@ -66,7 +81,8 @@
     <footer>
         <ul class="ul_nav-footer">
             <a href="https://github.com/andreiabuca"><img src="./images/github-icon.png" class="footer-icon" alt=""></a>
-            <a href="https://www.linkedin.com/in/andreiabuca/"><img src="./images/linkedin-icon.png" class="footer-icon" alt="linkedin-icon"></a>
+            <a href="https://www.linkedin.com/in/andreiabuca/"><img src="./images/linkedin-icon.png" class="footer-icon"
+                    alt="linkedin-icon"></a>
         </ul>
     </footer>
 </body>

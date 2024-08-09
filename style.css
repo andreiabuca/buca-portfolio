@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #9B59B6;
+    /* --primary-color: #9B59B6; */
+    --primary-color: #b190eb;
     --accent-color: #1ABC9C;
     --neutral-light: #ECF0F1;
     --neutral-dark: #2C3E50; 
@@ -17,11 +18,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montesserat', sans-serif;
     color: var(--primary-color);
-}
-
-header {
-    background-color: var(--neutral-light);
-    color: var(--neutral-dark);
 }
 
 .nav-bar {
@@ -47,10 +43,48 @@ header {
     margin: 10px;
 }
 
+.header {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    padding: 200px 20px;
+    text-align: center;
+}
+
+.header_content {
+    display: inline-block;
+    text-align: center;
+}
+
+.i_icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: var(--neutral-light);
+}
+
+.p_name {
+    margin: 10px 19px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.p_job-title {
+    margin: 0;
+    font-size: 1.5rem;
+    display: inline-block;
+    border-right: 2px solid;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#typing {
+    display: inline;
+}
+
 .section-title {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     justify-content: center;
     gap: 60px;
 }
