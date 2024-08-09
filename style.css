@@ -26,8 +26,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-    width: 60;
-    height: 60px;
+    width: 45px;
+    height: 45px;
     display: flex;
     border-radius: 50px;
     margin-left: 10px;
@@ -91,6 +91,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .sec_projects {
     margin-bottom: 60px;
+}
+
+.div_about-me {
+    margin: 60px;
 }
 
 .sec_about-me {
