@@ -51,7 +51,7 @@ function displayProjects(projects) {
         projectElement.appendChild(titleContainer);
         projectElement.appendChild(buttonsContainer);
 
-        projectElement.addEventListener('click', () => openModal(project));
+        imageElement.addEventListener('click', () => openModal(project));
 
         container.appendChild(projectElement);
     });
