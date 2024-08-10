@@ -351,11 +351,28 @@ footer {
 }
 
 /* Media queries  */
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    
+    .ul_nav-bar {
+        display: flex;
+        align-items: center;
+    }
+    .div_about-me {
+        margin: 60px auto;
+    }
     .sec_about-me {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .div_about-me-img img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .div_about-me-text h1 {
+        text-align: center;
     }
 
     .sec_projects {
@@ -364,7 +381,5 @@ footer {
         align-items: center;
     }
 
-    .div_about-me-text h1 {
-        text-align: unset;
-    }
+    
 }
