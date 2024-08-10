@@ -125,24 +125,19 @@ window.onload = fetchProjects;
 //Animation for the header 
 document.addEventListener('DOMContentLoaded', function() {
     const text = "Intégrateur web front-end";
-    let index = 0;
-    const speed = 100; 
+    const speed = 100;
     const delay = 1000;
     const typingElement = document.getElementById('typing');
-
-    function type() {
+    
+    function type(index = 0) {
+        typingElement.textContent = text.slice(0, index);
         if (index < text.length) {
-            typingElement.textContent += text.charAt(index);
-            index++;
-            setTimeout(type, speed);
+            setTimeout(() => type(index + 1), speed);
         } else {
-            setTimeout(() => {
-                index = 0;
-                typingElement.textContent = "";
-                type();
-            }, delay);
+            setTimeout(() => type(0), delay);
         }
     }
 
     type();
 });
+
